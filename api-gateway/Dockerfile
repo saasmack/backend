@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jre
+FROM eclipse-temurin:25-jre
 WORKDIR /app
 RUN groupadd -r mackllc && useradd -r -g mackllc mackllc
 COPY target/*.jar app.jar
